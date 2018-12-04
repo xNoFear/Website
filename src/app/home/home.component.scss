@@ -1,0 +1,40 @@
+html::before {
+  background-image: url(../pictures/hintergrund.jpg);
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-position: top left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+h1 {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20pt;
+  color: black;
+}
+body{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 10em;
+  font-size: 30pt;
+}
+form {
+  margin: auto;
+  width: 50%;
+}
+
+td {
+  font-size: 10pt;
+  color: black;
+}
+
+button:hover, button:active, button:focus {
+  background-color: indianred;
+}
+
